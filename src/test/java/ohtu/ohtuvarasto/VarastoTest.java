@@ -32,7 +32,7 @@ public class VarastoTest {
 
     @Test
     public void konstruktoriLuoTyhjanVaraston() {
-        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
